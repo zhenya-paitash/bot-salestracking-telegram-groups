@@ -1,0 +1,34 @@
+{
+  "name": "bot-salestracking-telegram-groups",
+  "version": "1.0.0",
+  "description": "Простой трекер телеграмм групп для поиска совпадений в сообщениях и пересылки их пользователю",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "node-telegram-bot-api",
+    "gramjs",
+    "fuzzy",
+    "mongodb",
+    "telegram",
+    "telegram API"
+  ],
+  "author": "zhenya-paitash",
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "fast-fuzzy": "^1.12.0",
+    "input": "^1.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.2",
+    "node-telegram-bot-api": "^0.60.0",
+    "telegram": "^2.13.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
